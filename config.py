@@ -10,9 +10,9 @@ class Config:
     SQLCLCHEMY_RECORD_QUERIES = True
     CSRF_ENABLED = True
     MAIL_SERVER = os.environ.get('MAIL_SERVER','smtp.gmail.com')
-    MAIL_USERNAME = os.environ.get('MAIL_USERNAME','florenceshiru765@gmail.com')
-    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD','@254generari237')
-    MAIL_SENDER = os.environ.get('MAIL_SENDER', 'Project Admin<berylonyancha@gmail.com>')
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME','bonyanchama@gmail.com')
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD','november051999')
+    MAIL_SENDER = os.environ.get('MAIL_SENDER', 'Project Admin<bonyanchama@gmail.com>')
     PROJECT_ADMIN = os.environ.get('PROJECT_ADMIN', 'PROJECT_ADMIN')
     MAIL_PORT = int(os.environ.get('MAIL_PORT', '465'))
     MAIL_USE_TLS = int(os.environ.get('MAIL_USE_TLS', False))
