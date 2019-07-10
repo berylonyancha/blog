@@ -1,3 +1,3 @@
 Hi {{user.username}},
 
-Hope you enjiy using my website
+Hope you enjoy using my website
